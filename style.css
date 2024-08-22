@@ -1,0 +1,307 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.accuiel{
+    background-color: #151419;
+    height: 100vh;
+    /* padding: 10px 85px; */
+
+}
+.navbar{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: 10px 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #ddd;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-size:2em;
+    align-items: center;
+}
+
+.nav>li{
+    margin: 0 15px;
+    list-style-type: none;
+
+}
+.nav>li>a{
+    text-decoration: none;
+    color: white;
+    
+    padding: 5px 20px ;
+    border-radius: 10px;
+}
+.active{
+    background: #F56E0F;
+}
+
+.nav>li>a:hover{
+    background: #F56E0F;
+}
+.logo>h1{
+    font-size: 3em;
+}
+.element_accuiel{
+    display: flex;
+    
+    align-items: center;
+    padding: 10% 90px 0 90px;
+}
+.presentation{
+    width: 50%;
+    color: white;
+}
+.presentation>h1{
+    font-size: 4em;
+}
+.titre_front{
+    font-size:3em ;
+    color: #F56E0F;
+}
+    
+
+
+
+.img_accuiel{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_accuiel>img{
+    height: 30em;
+
+}
+.boutoncontact{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #F56E0F;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+.ctn_boutton_contact{
+    margin-top: 8%;
+    
+}
+#titre_prefina{
+    font-size: 3em;
+    margin: 10px 0 ;
+}
+.par_pres{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+
+/* Apropos */
+
+#about{
+    height: 100vh;
+    color: white;
+    background-color: black;
+    padding: 6% 90px 10px 90px;
+
+}
+
+#about>h1{
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    justify-content: center;
+    
+    margin-bottom: 10px;
+}
+.ctn_Apropos{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+.img_Apropos{
+    width: 50%;
+
+}
+
+.img_Apropos >img{
+ height: 25em;   
+}
+.text_Apropos{
+    width: 50%;
+}
+.text_Apropos >h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+
+}
+
+.text_Apropos>p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.ctn_btn_apropos{
+    
+    margin-top: 8%;
+}
+
+.btn_contacte_Apropos{
+    padding: 15px 30px ;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 10px;
+    color: white;
+    background: #F56E0F;
+}
+
+
+
+/* skils*/
+
+
+
+#skils{
+    /* height: 100vh; */
+    background: rgb(29, 27, 27);
+    color: white;
+    padding: 6% 90px 10px 90px;
+}
+#skils >h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.ctn_carte{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.element_carte{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 30%;
+}
+.div_html{
+    display: flex;
+    justify-content: center;
+}
+.div_html>img{
+    height: 10em;
+
+}
+.ctn_element_carte>h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.8em;
+
+}
+
+.par_carte>p{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+}
+
+.ctn_progretion{
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    
+}
+
+.pourcentage>h3{
+    display: flex;
+    justify-content: end;
+}
+.barre_progres{
+    height: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.progression{
+    background: #e7823a;
+    width: 50%;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.JavaScript{
+    background: #e7823a;
+    width: 20%;
+    height: 7px;
+    border-radius: 10px;
+
+}
+.btn_contact_comp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn_contact_comp>a{
+    color: white;
+    background: #F56E0F;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#contact{
+    padding: 2% 90px 10px 90px;
+    background: black;
+    color: white;
+}
+
+#contact>h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#contact>h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    margin-bottom: 10px ;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+.ctn_icone{
+    padding-right: 25px;
+    
+}
+
+.ctn_icone>ul>li{
+    list-style: none;
+    padding: 8px 8px;
+
+}
+
+.ctn_icone>ul>li:hover{
+    background: #F56E0F;
+    border-radius: 10px;
+}
